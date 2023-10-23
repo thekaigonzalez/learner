@@ -1,0 +1,14 @@
+learner - a simple algorithm which can guess a correct answer from a given input
+
+how it works:
+
+        There are a list of answers and the learner guesses one of the answers,
+        if the answer is RIGHT, it adds that answer to the list of right
+        answers. If the answer is WRONG, it adds that answer to the list of
+        wrong answers. simple enough. This algorithm in essence will remember
+        each right and wrong answer and will use previous failures to influence
+        the next answer.
+
+        this algorithm embodiess principles of learning from previous
+        successes and failures to increase its chances of making accurate
+        predictions.
